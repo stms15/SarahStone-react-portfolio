@@ -4,9 +4,15 @@ export default function Navbar() {
   return (
     <div>
       <ul>
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li href="#about" onClick={() => handlePageChange('About')}>
+          About
+        </li>
+        <li href="#work" onClick={() => handlePageChange('Work')}>
+          Work
+        </li>
+        <li href="#contact" onClick={() => handlePageChange('Contact')}>
+          Contact
+        </li>
       </ul>
     </div>
   );
