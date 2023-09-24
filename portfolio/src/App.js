@@ -13,7 +13,7 @@ function App() {
   // render page
   const renderPage = () => {
     if (currentPage === 'About') {
-      return <About />;
+      return <About handlePageChange={handlePageChange} />;
     } else if (currentPage === 'Works') {
       return <Works />;
     } else if (currentPage === 'Contact') {
