@@ -7,7 +7,7 @@ export default function Header({ handlePageChange }) {
     <header className="headline-columns">
       <div>
         <h1>Sarah Stone</h1>
-        <h3>Full-Stack Developer</h3>
+        <h5>Full-Stack Developer</h5>
       </div>
       <Navbar handlePageChange={handlePageChange} />
     </header>

@@ -1,0 +1,87 @@
+:root {
+  --accent1: rgb(239, 214, 206);
+  --accent2: rgb(162, 103, 105);
+  --accent3: rgb(115, 44, 44);
+  --dark: rgb(50, 2, 22);
+  --grey: rgb(35, 32, 32);
+}
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: black;
+  background-color: white;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 8rem;
+}
+
+/* ---- Heading Attributes ---- */
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 225%;
+}
+
+h3 {
+  font-size: 185%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+h5 {
+  font-size: 125%;
+}
+
+/* ------ Pages ------ */
+
+.page {
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 10px;
+  min-height: 60vh;
+  margin-top: -2px;
+}
+
+.profileImg {
+  max-width: 20%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  /* align-items: center; */
+}
+
+form ul li {
+  padding: 10px;
+}
