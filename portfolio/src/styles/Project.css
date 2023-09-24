@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 27%;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  color: var(--accent1);
+}
+
+.card img {
+  width: 100%;
+  opacity: 0.75;
+}
+
+.card a {
+  color: var(--accent3);
+}
+
+.card a h3 {
+  color: var(--dark);
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px var(--grey);
+}
+
+.card img:hover {
+  opacity: 1;
+}

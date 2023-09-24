@@ -1,12 +1,12 @@
 import React from 'react';
 import resume from '../../assets/files/SarahStone_Resume.pdf';
 
-export default function Resume() {
+export default function Resume({ color }) {
   return (
-    <div>
+    <div className="page" style={{ backgroundColor: color, color: 'white' }}>
       <p>
         Download my resume{' '}
-        <a href={resume} download>
+        <a href={resume} download="SarahStone_Resume">
           here
         </a>
         .

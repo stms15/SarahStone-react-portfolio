@@ -1,9 +1,15 @@
 import React from 'react';
+import profileImg from '../../assets/images/Sarah-convocation-2022.png';
 
-export default function About({ handlePageChange }) {
+export default function About({ handlePageChange, color }) {
   return (
-    <div>
+    <div className="page" style={{ backgroundColor: color }}>
       <h2>About Me</h2>
+      <img
+        src={profileImg}
+        className="profileImg"
+        alt={'Sarah on a bridge in Quidi Vidi'}
+      ></img>
       <p>Welcome to my website &#9786;</p>
       <p>
         My name is Sarah and I&rsquo;m a Full&ndash;Stack Web Developer based in
