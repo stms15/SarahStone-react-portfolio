@@ -7,7 +7,7 @@ export default function Navbar({ handlePageChange }) {
         <li href="#about" onClick={() => handlePageChange('About')}>
           About
         </li>
-        <li href="#work" onClick={() => handlePageChange('Work')}>
+        <li href="#work" onClick={() => handlePageChange('Works')}>
           Work
         </li>
         <li href="#contact" onClick={() => handlePageChange('Contact')}>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About() {
+export default function About({ handlePageChange }) {
   return (
     <div>
       <h2>About Me</h2>
@@ -16,10 +16,11 @@ export default function About() {
         research project titled &ldquo;Analysis of Radiation Belt
         &lsquo;Killer&rsquo; Electron Energy Spectra.&rdquo; Our paper is
         published in the Journal of Geophysical Research: Space Physics and can
-        be accessed
+        be accessed{' '}
         <a
           href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022JA030698"
           target="_blank"
+          rel="noreferrer"
         >
           here
         </a>
@@ -31,13 +32,19 @@ export default function About() {
         wide variety of skills including HTML, CSS, JavaScript, APIs, Node.js,
         Express.js, SQL and NoSQL databases, React, and more. I completed and
         contributed to numerous projects during this time to enhance my web
-        development skills. Check out the <a href="#works">Works</a> page for
-        details.
+        development skills. Check out the{' '}
+        <a href="#works" onClick={() => handlePageChange('Works')}>
+          Works
+        </a>{' '}
+        page for details.
       </p>
       <p>
         If you&rsquo;d like to discuss employment or collaboration
-        opportunities, or you just want to chat, please
-        <a href="#contact">contact me</a>!
+        opportunities, or you just want to chat, please{' '}
+        <a href="#contact" onClick={() => handlePageChange('Contact')}>
+          contact me
+        </a>
+        !
       </p>
     </div>
   );
