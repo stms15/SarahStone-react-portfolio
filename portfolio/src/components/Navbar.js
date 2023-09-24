@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Navbar.css';
 
 export default function Navbar({ handlePageChange }) {
   return (
-    <div>
+    <nav>
       <ul>
         <li href="#about" onClick={() => handlePageChange('About')}>
           About
@@ -14,6 +15,6 @@ export default function Navbar({ handlePageChange }) {
           Contact
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
