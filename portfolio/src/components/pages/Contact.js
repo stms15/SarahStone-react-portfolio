@@ -15,6 +15,8 @@ export default function Contact({ color }) {
 
     if (value === '' || !value) {
       setErrorMessage(`Please complete the ${name} field.`);
+    } else if (name === 'email' && !validateEmail(value)) {
+      setErrorMessage('Please enter a valid email.');
     } else {
       setErrorMessage('');
     }
