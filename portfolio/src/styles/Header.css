@@ -27,5 +27,4 @@ header h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 85%;
 }
