@@ -6,6 +6,23 @@
   --grey: rgb(35, 32, 32);
 }
 
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 185%;
+}
+
+h4 {
+  font-size: 150%;
+  margin: 5px;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;

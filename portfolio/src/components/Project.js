@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Project.css';
 
 export default function Project(props) {
   return (
-    <div>
+    <div className="card">
       <a href={props.href}>
         <img src={props.imgSrc} alt={props.imgAlt}></img>
         <div>
