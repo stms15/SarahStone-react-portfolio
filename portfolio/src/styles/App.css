@@ -63,7 +63,7 @@ h5 {
 }
 
 .profileImg {
-  max-width: 20%;
+  max-width: 15%;
 }
 
 .card-container {
@@ -92,4 +92,54 @@ form ul li {
 
 #resumeLink:hover {
   color: var(--accent2);
+}
+
+/* ------ Responsive ------ */
+
+@media screen and (max-width: 1250px) {
+  .page {
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profileImg {
+    max-width: 25%;
+  }
+
+  #imageSpan {
+    display: flex;
+    justify-content: center;
+  }
+
+  .page {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 250%;
+  }
+
+  h2 {
+    font-size: 175%;
+  }
+
+  h3 {
+    font-size: 160%;
+  }
+
+  h4 {
+    font-size: 140%;
+  }
+
+  h5 {
+    font-size: 115%;
+  }
+
+  form ul {
+    margin-left: -30px;
+  }
 }
