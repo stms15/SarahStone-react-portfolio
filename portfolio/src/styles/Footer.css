@@ -7,7 +7,7 @@ footer {
   justify-content: space-around;
   height: 8rem;
   text-align: center;
-  color: var(--accent3);
+  color: var(--grey);
   padding: 5px;
   /* border-radius: 20px; */
 }
@@ -29,7 +29,7 @@ footer ul li {
 }
 
 a {
-  color: var(--accent3);
+  color: var(--grey);
   text-decoration: none;
 }
 
