@@ -50,76 +50,65 @@ export default function Contact({ color }) {
 
   return (
     <div className="page" style={{ backgroundColor: color }}>
-      <h2>Contact Me</h2>
-      <form>
-        <ul>
-          <li>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxWidth: '300px',
-              }}
-            >
-              Name:
-              <input
-                type="text"
-                placeholder="Your Name"
-                value={name}
-                name="name"
-                onChange={handleInputChange}
-                style={{ height: '2em' }}
-              />
-            </div>
-          </li>
-          <li>
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxWidth: '300px',
-              }}
-            >
-              Email:
-              <input
-                name="email"
-                value={email}
-                onChange={handleInputChange}
-                type="email"
-                placeholder="youremail@example.com"
-                style={{ height: '2em' }}
-              />
-            </div>
-          </li>
-          <li id="description">
-            <div
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                maxWidth: '300px',
-              }}
-            >
-              <textarea
-                name="description"
-                value={description}
-                onChange={handleInputChange}
-                type="text"
-                placeholder="Hi Sarah..."
-                style={{ height: '' }}
-                rows={'5'}
-              ></textarea>
-            </div>
-          </li>
-          <li>
-            <i>{errorMessage}</i>
-          </li>
-          <li id="submit">
+      <h2 style={{ color: 'white' }}>Contact Me</h2>
+      <div className="form-div">
+        <form>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            Name:
+            <input
+              type="text"
+              placeholder="Your Name"
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              style={{ height: '2em' }}
+            />
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            Email:
+            <input
+              name="email"
+              value={email}
+              onChange={handleInputChange}
+              type="email"
+              placeholder="youremail@example.com"
+              style={{ height: '2em' }}
+            />
+          </div>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <textarea
+              name="description"
+              value={description}
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Hi Sarah..."
+              style={{ height: '' }}
+              rows={'5'}
+            ></textarea>
+          </div>
+          <i>{errorMessage}</i>
+          <span style={{ textAlign: 'center' }}>
             <button type="button" onClick={handleFormSubmit}>
               Submit
             </button>
-          </li>
-        </ul>
-      </form>
+          </span>
+        </form>
+      </div>
     </div>
   );
 }
