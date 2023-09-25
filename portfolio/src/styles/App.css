@@ -73,17 +73,43 @@ h5 {
   justify-content: space-evenly;
 }
 
-form ul {
+.form-div {
+  display: flex;
+  justify-content: center;
+}
+
+form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  list-style-type: none;
-  /* align-items: center; */
+  background-color: var(--accent1);
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-form ul li {
+form input {
+  margin: 10px;
+}
+
+form textarea {
+  margin: 10px;
+}
+
+form button {
   padding: 10px;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  background-color: var(--accent2);
+  max-width: 25%;
+  margin: 10px;
+}
+
+form button:hover {
+  background-color: var(--dark);
+  color: white;
+  box-shadow: 2px 2px 5px black;
 }
 
 #resumeLink {
@@ -99,6 +125,10 @@ form ul li {
 @media screen and (max-width: 1250px) {
   .page {
     padding: 2%;
+  }
+
+  form {
+    width: 50%;
   }
 }
 
@@ -139,7 +169,11 @@ form ul li {
     font-size: 115%;
   }
 
-  form ul {
-    margin-left: -30px;
+  form {
+    width: 75%;
+  }
+
+  form button {
+    max-width: 30%;
   }
 }
