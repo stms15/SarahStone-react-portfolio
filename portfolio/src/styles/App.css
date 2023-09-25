@@ -85,3 +85,11 @@ form ul {
 form ul li {
   padding: 10px;
 }
+
+#resumeLink {
+  color: white;
+}
+
+#resumeLink:hover {
+  color: var(--accent2);
+}
