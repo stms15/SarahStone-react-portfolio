@@ -44,3 +44,18 @@ nav li:focus {
   font-size: 120%;
   cursor: pointer;
 }
+
+/* ----- Responsive ----- */
+
+@media screen and (max-width: 900px) {
+  nav {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 85%;
+    font-size: small;
+  }
+}

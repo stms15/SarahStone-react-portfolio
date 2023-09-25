@@ -58,7 +58,7 @@ export default function Contact({ color }) {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                maxWidth: '40%',
+                maxWidth: '300px',
               }}
             >
               Name:
@@ -77,7 +77,7 @@ export default function Contact({ color }) {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                maxWidth: '40%',
+                maxWidth: '300px',
               }}
             >
               Email:
@@ -96,7 +96,7 @@ export default function Contact({ color }) {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                maxWidth: '40%',
+                maxWidth: '300px',
               }}
             >
               <textarea

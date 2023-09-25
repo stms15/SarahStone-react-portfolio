@@ -42,3 +42,25 @@ a:hover {
   max-width: 35px;
   padding-right: 8px;
 }
+
+/* ----- Responsive ----- */
+
+@media screen and (max-width: 600px) {
+  .icon {
+    width: 25px;
+  }
+
+  footer {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    font-size: x-small;
+  }
+
+  .icon {
+    width: 20px;
+  }
+}
