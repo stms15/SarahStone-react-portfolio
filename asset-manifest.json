@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SarahStone-react-portfolio/static/css/main.f270ea87.css",
+    "main.js": "/SarahStone-react-portfolio/static/js/main.523cb7fd.js",
+    "static/media/MyTimeFillers.png": "/SarahStone-react-portfolio/static/media/MyTimeFillers.250e001d22bd7f5c33ce.png",
+    "static/media/Sarah-convocation-2022.png": "/SarahStone-react-portfolio/static/media/Sarah-convocation-2022.58c61d25da04cba8c547.png",
+    "static/media/PokePlaylist.png": "/SarahStone-react-portfolio/static/media/PokePlaylist.c2b42ff14cba13966217.png",
+    "static/media/WeatherForecastDashboard.png": "/SarahStone-react-portfolio/static/media/WeatherForecastDashboard.e5b13ff1e108c15e1aef.png",
+    "static/media/SarahStone_Resume.pdf": "/SarahStone-react-portfolio/static/media/SarahStone_Resume.d91cccdaaee64393d781.pdf",
+    "static/media/LinkedIn-icon.png": "/SarahStone-react-portfolio/static/media/LinkedIn-icon.9dfdc9701c0e1eb622bb.png",
+    "static/media/PasswordGenerator.png": "/SarahStone-react-portfolio/static/media/PasswordGenerator.59a191efb068d75cd1eb.png",
+    "static/media/PWA-TextEditor.jpg": "/SarahStone-react-portfolio/static/media/PWA-TextEditor.de39d41ab75a6ec9a500.jpg",
+    "static/media/NoteTakerApp.png": "/SarahStone-react-portfolio/static/media/NoteTakerApp.8be316754be1a6f9e606.png",
+    "static/media/envelope.svg": "/SarahStone-react-portfolio/static/media/envelope.6272e0cfa7d7ad1ef2c0dd9880bf925e.svg",
+    "static/media/GitHub-icon.svg": "/SarahStone-react-portfolio/static/media/GitHub-icon.255db585f8a0eb28a1e4deb91bde207d.svg",
+    "index.html": "/SarahStone-react-portfolio/index.html",
+    "main.f270ea87.css.map": "/SarahStone-react-portfolio/static/css/main.f270ea87.css.map",
+    "main.523cb7fd.js.map": "/SarahStone-react-portfolio/static/js/main.523cb7fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f270ea87.css",
+    "static/js/main.523cb7fd.js"
+  ]
+}
