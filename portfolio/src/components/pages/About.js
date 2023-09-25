@@ -42,7 +42,7 @@ export default function About({ handlePageChange, color }) {
         contributed to numerous projects during this time to enhance my web
         development skills. Check out the{' '}
         <a href="#works" onClick={() => handlePageChange('Works')}>
-          Works
+          Work
         </a>{' '}
         page for details.
       </p>
