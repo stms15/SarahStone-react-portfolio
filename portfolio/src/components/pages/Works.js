@@ -6,6 +6,7 @@ import textEditorImg from '../../assets/images/PWA-TextEditor.jpg';
 import noteTakerImg from '../../assets/images/NoteTakerApp.png';
 import passwordGeneratorImg from '../../assets/images/PasswordGenerator.png';
 import weatherDashboardImg from '../../assets/images/WeatherForecastDashboard.png';
+import writersRoomImg from '../../assets/images/writers-room-homepage.png';
 
 export default function Works({ color }) {
   return (
@@ -59,6 +60,14 @@ export default function Works({ color }) {
           imgAlt="Home page of the Weather Forecast Dashboard website"
           name="Weather Forecast Dashboard"
           description="Get the 5&ndash;day weather forecast for any city of your choosing. "
+        />
+        <Project
+          href="https://writers-room-2023-1fe71a40c61d.herokuapp.com/"
+          githubHref="https://github.com/stms15/WritersRoom-Project3"
+          imgSrc={writersRoomImg}
+          imgAlt="Home page of Writer's Room"
+          name="Writer's Room"
+          description="Use our step-by-step guide to write your entire novel all in one place, starting with an AI generated prompt."
         />
       </div>
     </div>
