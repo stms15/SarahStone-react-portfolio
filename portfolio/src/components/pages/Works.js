@@ -14,6 +14,14 @@ export default function Works({ color }) {
       <h2>Previous Works</h2>
       <div className="card-container">
         <Project
+          href="https://writers-room-2023-1fe71a40c61d.herokuapp.com/"
+          githubHref="https://github.com/stms15/WritersRoom-Project3"
+          imgSrc={writersRoomImg}
+          imgAlt="Home page of Writer's Room"
+          name="Writer's Room"
+          description="Use our step-by-step guide to write your entire novel all in one place, starting with an AI generated prompt."
+        />
+        <Project
           href="https://my-time-fillers-eb26f5332548.herokuapp.com/"
           githubHref="https://github.com/EliteHuskie/project-2-physical-media-collection-application"
           imgSrc={myTimeFillersImg}
@@ -52,22 +60,6 @@ export default function Works({ color }) {
           imgAlt="Home page of the Random Password Generator website"
           name="Random Password Generator"
           description="Generate a custom&ndash;length password between 8 and 128 using any combination of character types."
-        />
-        <Project
-          href="https://stms15.github.io/weather-forecast-dashboard/"
-          githubHref="https://github.com/stms15/weather-forecast-dashboard"
-          imgSrc={weatherDashboardImg}
-          imgAlt="Home page of the Weather Forecast Dashboard website"
-          name="Weather Forecast Dashboard"
-          description="Get the 5&ndash;day weather forecast for any city of your choosing. "
-        />
-        <Project
-          href="https://writers-room-2023-1fe71a40c61d.herokuapp.com/"
-          githubHref="https://github.com/stms15/WritersRoom-Project3"
-          imgSrc={writersRoomImg}
-          imgAlt="Home page of Writer's Room"
-          name="Writer's Room"
-          description="Use our step-by-step guide to write your entire novel all in one place, starting with an AI generated prompt."
         />
       </div>
     </div>
